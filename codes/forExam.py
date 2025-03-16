@@ -29,7 +29,7 @@ class LoLCharacter:
 
     @property
     def tamadas(self):
-        return self.tamadas
+        return self._tamadas
     @tamadas.setter
     def tamadas(self, tam):
         if 100 > tam > 0:
